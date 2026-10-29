@@ -1,0 +1,16 @@
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.btn{
+    height: 54px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    background: #2a2a32;
+    color: #f4f4f5;
+    transition: opacity 0.15s ease, transform 0.1s ease;
+}
